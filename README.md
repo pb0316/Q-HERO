@@ -13,7 +13,6 @@ QACGen/
 ├── model_qacvae.py              # GRU-VAE model implementation
 ├── util_decoder_full.py         # Complete generation pipeline
 ├── util_get_seq_emb_data.py     # Data preparation utilities
-├── util_prop_pred.py            # Property prediction models
 ├── util_reassemble_core_tail.py # Core-tail reassembly logic
 ├── util_split_core_tail.py      # Core-tail splitting algorithms
 ├── hgraph2graph/                # Hierarchical graph neural network models
@@ -48,12 +47,6 @@ QACGen/
 - **Core Generation**: Samples cores from the core VAE
 - **Tail Generation**: Samples tails from the tail VAE
 - **Reassembly**: Combines cores and tails using chemical rules
-
-### 5. Property Prediction (`util_prop_pred.py`)
-
-- **Antimicrobial Activity**: Predicts activity against S. aureus, E. faecalis, E. coli, P. aeruginosa
-- **Preference Classification**: Binary classification model
-- **RDKit Descriptors**: Uses molecular descriptors as features
 
 ## Usage
 
